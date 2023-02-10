@@ -41,9 +41,9 @@ echo  4- exit
 
 set/p "a="
 
-if %a%==1 start C:\Users\poste\Desktop\"Information security.docx" && cls && goto debut
-if %a%==2 start D:\aziz\az2.html && cls && goto debut
-if %a%==3 start D:\aziz\az3.html && cls && goto debut
+if %a%==1 start iexplorer.exe && cls && goto debut
+if %a%==2 start iexplorer.exe && cls && goto debut
+if %a%==3 start iexplorer && cls && goto debut
 if %a%==4 echo  . . . . . .&& goto wait
 
 :wait
